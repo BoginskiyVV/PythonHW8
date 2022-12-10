@@ -33,24 +33,24 @@ def add_contact(ch):
 add_contact(ch)
 
 
-def del_contact(ch):
-    if ch == 3:
-        del_cont = input('Введите фамилию: ')
-        with open('database.csv', 'a', newline='', encoding='UTF-8') as file:
-            file.readline()
-            file.find(del_cont)
+# def del_contact(ch):
+#     if ch == 3:
+#         del_cont = input('Введите фамилию: ')
+#         with open('database.csv', 'a', newline='', encoding='UTF-8') as file:
+#             file.readline()
+#             file.find(del_cont)
 
-del_contact(ch)
+# del_contact(ch)
 
-def change_contact(ch):
-    if ch == 4:
+# def change_contact(ch):
+#     if ch == 4:
 
-change_contact(ch)
+# change_contact(ch)
 
-def search_info(ch):
-    if ch == 4:
-        s_i = input('Введите инфоомацию для поиска: ')
-        
+# def search_info(ch):
+#     if ch == 4:
+#         s_i = input('Введите инфоомацию для поиска: ')
+
 
 
 
